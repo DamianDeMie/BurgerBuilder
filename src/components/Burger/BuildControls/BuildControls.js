@@ -4,6 +4,8 @@ import BuildControl from "./BuildControl/BuildControl";
 import classes from "./BuildControls.module.css";
 
 const controls = [
+    { ingredientName: "Ketchup", type: "ketchup" },
+    { ingredientName: "Mustard", type: "mustard" },
     { ingredientName: "Salad", type: "salad" },
     { ingredientName: "Bacon", type: "bacon" },
     { ingredientName: "Cheese", type: "cheese" },

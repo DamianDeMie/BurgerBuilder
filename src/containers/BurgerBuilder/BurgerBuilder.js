@@ -7,6 +7,8 @@ import Modal from "../../components/UI/Modal/Modal";
 import OrderSummary from "../../components/Burger/OrderSummary/OrderSummary";
 
 const INGREDIENT_PRICES = {
+    ketchup: 0.05,
+    mustard: 0.05,
     salad: 0.5,
     cheese: 0.4,
     meat: 1.3,
@@ -16,6 +18,8 @@ const INGREDIENT_PRICES = {
 class BurgerBuilder extends Component {
     state = {
         ingredients: {
+            ketchup: 0,
+            mustard: 0,
             salad: 0,
             bacon: 0,
             cheese: 0,
